@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.steps {
+  width: 1000px;
+  margin: 20px auto;
+}
+
+.add-step-wrap {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.add-step-wrap input {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.steps-list {
+  margin: 30px 0;
+  width: 350px;
+}
+
+.steps-row {
+  display: flex;
+  margin: 10px 0;
+}
+
+.steps-date {
+  width: 40%;
+}
+
+.steps-distance {
+  width: 40%;
+}
+
+.steps-delete {
+  width: 20%;
+}
+
+.steps-delete span {
+  cursor: pointer;
+}
+
+.steps-delete span:hover {
+  color: #f00;
+}
